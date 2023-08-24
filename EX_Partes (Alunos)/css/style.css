@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #760c97 !important;
+}
+.navbar .navbar-brand, .navbar .nav-link {
+    color: #fff !important;
+
+}
+
+.carousel {
+    width: 80%;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+.carousel-item img{
+    height: 500px;
+    max-width: 100%;
+    height: auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto;
+
+}
+
+@media (max-width: 768px) {
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+}
